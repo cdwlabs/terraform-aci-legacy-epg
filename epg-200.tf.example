@@ -1,0 +1,21 @@
+module "legacy_epg" {
+  source = "./modules/legacy_epg"
+  # The following must exist in ACI
+  tenant    = "common"
+  vrf       = "default"
+  vrf_l3out = "default"
+
+  # Use the create_application_profile variable if it doesn't already exist
+  create_application_profile = true
+  application_profile        = "legacy_networks"
+
+  # These are used to create the Bridge Domain and the EPG
+  subnet_name  = "legacy-200"
+  description  = "Legacy VLAN 200 - 10.1.200/24"
+  ip_subnet_gw = "10.1.200.1/24"
+
+  # These are optional and will be attached to the EPG if they are included
+  # They must exist to be applied
+  # dhcp_relay_policy = "common-dhcp"
+  # vmm_domain        = "common-vcenter"
+}
