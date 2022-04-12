@@ -12,16 +12,16 @@ Create:
 
 This repository uses the following publicly available Cisco resources with are a great way to learn more:
 
-* [https://registry.terraform.io/providers/CiscoDevNet/aci/2.1.0] Cisco ACI Terraform Provider
-* [https://developer.cisco.com/docs/aci/#!sandbox/aci-sandboxes] Cisco ACI Always on Simulator on Cisco DevNet
+* [Cisco ACI Terraform Provider](https://registry.terraform.io/providers/CiscoDevNet/aci/2.1.0)
+* [Cisco ACI Always on Simulator on Cisco DevNet](https://developer.cisco.com/docs/aci/#!sandbox/aci-sandboxes)
 
 ## Additional Learning
 
 Additional resources for learning Cisco ACI Infrastructure as Code (IaC) methodologies with Hashicorp Terraform:
 
-* [https://developer.cisco.com] Cisco DevNet - All things development for Cisco products
-* [https://learn.hashicorp.com/terraform] Hashicorp Terraform - Training available for Hashicorp tools (Terraform and others)
-* [https://dcloud.cisco.com] Cisco dCloud - Learning environments for Cisco products
+* [Cisco DevNet](https://developer.cisco.com) - All things development for Cisco products
+* [Hashicorp Terraform](https://learn.hashicorp.com/terraform) - Training available for Hashicorp tools (Terraform and others)
+* [Cisco dCloud](https://dcloud.cisco.com) - Learning environments for Cisco products
 
 ## Instructions
 
