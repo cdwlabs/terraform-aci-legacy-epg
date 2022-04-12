@@ -6,6 +6,21 @@ Create:
 * Application Profile (optional)
 * End-Point Group (EPG) (added to a VMware VMM - optional) associated with the Bridge Domain
 
+## Tools Used
+
+This repository uses the following publicly available Cisco resources with are a great way to learn more:
+
+* [https://registry.terraform.io/providers/CiscoDevNet/aci/2.1.0] Cisco ACI Terraform Provider
+* [https://developer.cisco.com/docs/aci/#!sandbox/aci-sandboxes] Cisco ACI Always on Simulator on Cisco DevNet
+
+## Additional Learning
+
+Additional resources for learning Cisco ACI Infrastructure as Code (IaC) methodologies with Hashicorp Terraform:
+
+* [https://developer.cisco.com] Cisco DevNet - All things development for Cisco products
+* [https://learn.hashicorp.com/terraform] Hashicorp Terraform - Training available for Hashicorp tools (Terraform and others)
+* [https://dcloud.cisco.com] Cisco dCloud - Learning environments for Cisco products
+
 ## Instructions
 
 ### Authentication/Credentials
