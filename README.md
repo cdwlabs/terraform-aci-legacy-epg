@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/cdwlabs/terraform-aci-legacy-epg)
+
 # terraform-aci-legacy-epg
 Public repository for Cisco DevNet.  This repository includes a module for use with Cisco ACI fabric and interfaces with an APIC to perform the following:
 
